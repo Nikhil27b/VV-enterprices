@@ -37,7 +37,7 @@ p {
   font-size: 18px;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
@@ -157,6 +157,9 @@ footer a {
   margin-top: 5px;
 }
 
+.logoinfo h2 {
+  text-transform: uppercase;
+}
 .contact-details {
   margin-top: 20px;
 }
@@ -164,16 +167,26 @@ footer a {
 .contact-details li {
   list-style: none;
   margin: 10px 0;
+  display: flex;
 }
 
 .contact-details li a {
   text-decoration: none;
   color: #f1f1f1;
+  margin: 0 10px;
+}
+
+.contact-details h3 {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 18px;
+  margin: 0 10px;
 }
 
 .contact-details .fa {
   color: #f1f1f1;
   margin-right: 10px;
+  display: flex;
 }
 
 .sociallogos {
@@ -190,6 +203,7 @@ footer a {
 .com ul li {
   padding: 5px 0;
 }
+
 
 @media only screen and (max-width: 749px) {
   .main-footer {
@@ -231,6 +245,7 @@ ul {
 
 .card-items img {
   width: 100%;
+  height: 280px;
 }
 
 .card-items h3 {
@@ -304,6 +319,7 @@ ul {
   cursor: pointer;
   font-weight: 300;
 }
+
 .portfolio__filter .filter-button:hover,
 .portfolio__filter .filter-button:focus,
 .portfolio__filter .filter-button:active {
@@ -312,6 +328,7 @@ ul {
   color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
+
 .portfolio__filter .filter-button:focus {
   outline: 0;
 }
@@ -338,7 +355,6 @@ ul {
   width: 100%;
 }
 
-
 /*=================== contact banner start ====================*/
 /* line 3, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
 .contact-info {
@@ -353,7 +369,8 @@ ul {
 }
 
 /* line 9, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -417,7 +434,7 @@ ul {
 @media (max-width: 991px) {
   /* line 55, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
   .form-contact .form-group .btn_1 {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -477,32 +494,32 @@ ul {
 @media (max-width: 576px) {
   /* line 119, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
   .contact-section .btn_1 {
-      margin-bottom: 0px !important;
-      margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 127, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
   .contact-section .btn_1 {
-      margin-bottom: 0px !important;
-      margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 135, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
   .contact-section .btn_1 {
-      margin-bottom: 0px !important;
-      margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 143, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_contact.scss */
   .contact-section .btn_1 {
-      margin-bottom: 0px !important;
-      margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
   }
 }
 
@@ -553,14 +570,15 @@ ul {
 }
 
 /* line 1, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
-.breadcrumb_bg , .breadcrumb_bg.our_machinery{
+.breadcrumb_bg,
+.breadcrumb_bg.our_machinery {
   /*background-image: url("../img/breadcrumb.png");*/
   background-color: #ecfdff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.breadcrumb_bg.our_machinery{
+.breadcrumb_bg.our_machinery {
   background-image: url("http://vaspraenterprises.in/images/our_machinery.png");
 }
 
@@ -597,28 +615,28 @@ ul {
 @media (max-width: 576px) {
   /* line 19, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
   .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 19, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
   .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 19, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
   .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
-      font-size: 40px;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 19, ../../01 cl html template/03_jun 2019/188_Aranoz shop_html/sass/_breadcrumb.scss */
   .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
-      font-size: 50px;
+    font-size: 50px;
   }
 }
 
@@ -639,11 +657,77 @@ ul {
   margin-bottom: 0px !important;
 }
 
-
 .row {
-  --bs-gutter-x:0 !important;
+  --bs-gutter-x: 0 !important;
 }
 
-.media-body a{
+.media-body a {
   color: #000000;
+}
+
+
+@media only screen and (max-width: 749px) {
+  .d-flex {
+flex-direction: column-reverse;
+  }
+
+  .hero-content{
+    text-align: center;
+  }
+  .hero-img img{
+    width: 100% !important;
+    padding-bottom: 20px;
+  }
+  .card-items {
+    width: 100%;
+    display: grid;
+}
+.product-card {
+  padding: 30px 0;
+  grid-template-columns: 1fr;
+}
+.btn-bika{
+  text-align: center;
+}
+#about-hero-section .hero-img img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+#about-hero-section .hero-content {
+  padding-right: 0;
+}
+.portfolio__filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.portfolio__img {
+  display: grid;
+  flex-wrap: wrap;
+}
+.hero-content h1 {
+  color: #000000;
+  font-size: 50px;
+  line-height: 50px;
+}
+}
+
+
+
+@media (max-width:350px) {
+  h1,.h1 {
+    font-size: 38px !important;
+    line-height: 38px !important;
+    font-family: "Gilroy-Extra";
+  }
+  
+  h2 ,.h2{
+    font-size: 24px !important;
+    font-family: "Gilroy-Extra";
+  }
+  
+  h3 ,.h3{
+    font-size: 18px !important;
+  }
+  
 }
