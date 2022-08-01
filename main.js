@@ -1,4 +1,4 @@
-var imageSources = ["../assets/images/hero/hero1.jpeg","../assets/images/hero/hero2.jpeg","../assets/images/hero/hero3.jpeg","../assets/images/hero/hero4.jpeg"]
+var imageSources = ["./assets/images/hero/hero1.jpeg","./assets/images/hero/hero2.jpeg","./assets/images/hero/hero3.jpeg","./assets/images/hero/hero4.jpeg"]
 
 var index = 0;
 setInterval(function(){
